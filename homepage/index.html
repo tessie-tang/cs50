@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title>Hi, I'm Xinyi Tang</title>
+
+        <!-- my own imports -->
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- header start -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light shadow">
+                <div class="container-fluid" id="nav">
+                    <a class="navbar-brand text-danger p-2 fs-1 fw-bold" href="./index.html">Xinyi Tang</a>
+
+                    <div class="collapse navbar-collapse px-5 p-2 fs-3 justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                            <a class="nav-link" href="./coding.html">Coding</a>
+                            <a class="nav-link" href="./arts.html">Arts</a>
+                            <a class="nav-link" href="./fun.html">Fun</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- header end -->
+
+        <!-- main content start -->
+        <main>
+            <section class="home-about animation">
+                <div class="container justify-content-center">
+                    <!-- content section start -->
+                    <div class="row animation">
+                        <div class="col-6 mr-auto">
+                            <h1>Hi! I'm Xinyi Tang</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at elit tempor, fringilla dolor porta, mattis nunc. Ut sapien elit, dapibus nec magna id, pretium blandit urna </p>
+                        </div>
+                        <img class="self-image" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cute-cat-photos-1593441022.jpg" alt="Me">
+                    </div>
+                    <!-- content section end -->
+                </div>
+            </section>
+        </main>
+
+        <script>
+            $(".animation").delay(100).animate({ opacity: 1 }, 1000)
+        </script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: The algorithm is fast for sorted inputs and slow for unsorted inputs.
+
+sort2 uses: Merge Sort
+
+How do you know?: It has the shortest run time among all other sorting algorithms.
+
+sort3 uses: Selection sort
+
+How do you know?: The algorithm execution time is the same no matter if the input is sorted or not.

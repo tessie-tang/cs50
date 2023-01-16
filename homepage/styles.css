@@ -1,0 +1,27 @@
+header {
+    positon: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.self-image {
+    float: left;
+    margin: 0px;
+    width: 100%;
+}
+
+p {
+    width: 100%;
+    font-size: 22px;
+}
+
+.row {
+    float: left;
+    margin-top: 50px;
+}
+
+h1 {
+    width: 100%;
+    font-size: 40px;
+    margin-top: 50px;
+}
